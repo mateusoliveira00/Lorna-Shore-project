@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/3d336feb3c.js" crossorigin="anonymous"></script>
+
+    <title>Lorna Shore/Home</title>
+
+    <style>
+      body{
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: black;
+      }
+
+      nav{
+        background-color: black;
+      }
+
+      
+
+
+
+
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    border-left: 10px solid bisque;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    color: white;    
+}
+
+
+.card {
+    display: table-row;
+    width: 49%;
+    background-color: #fff;
+    color: #989898;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    position: relative
+}
+
+.card+.card {
+    margin-left: 2%
+}
+
+.date {
+    display: table-cell;
+    width: 25%;
+    position: relative;
+    text-align: center;
+    border-right: 2px dashed black
+}
+
+
+
+
+.date time {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%)
+}
+
+.date time span {
+    display: block
+}
+
+.date time span:first-child {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 250%
+}
+
+
+.card-cont {
+    display: table-cell;
+    width: 75%;
+    font-size: 85%;
+    padding: 10px 10px 30px 50px
+}
+
+.card-cont h3 {
+    color: #3C3C3C;
+    font-size: 130%
+}
+
+.row:last-child .card:last-of-type .card-cont h3 {
+    text-decoration: line-through
+}
+
+.card-cont>div {
+    display: table-row
+}
+
+.card-cont .even-date i,
+.card-cont .even-info i,
+.card-cont .even-date time,
+.card-cont .even-info p {
+    display: table-cell
+}
+
+.card-cont .even-date i,
+.card-cont .even-info i {
+    padding: 5% 5% 0 0
+}
+
+.card-cont .even-info p {
+    padding: 30px 50px 0 0
+}
+
+.card-cont .even-date time span {
+    display: block
+}
+
+.card-cont a {
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.row:last-child .card:first-child .card-cont a {
+    background-color: #037FDD
+}
+
+.row:last-child .card:last-child .card-cont a {
+    background-color: #F8504C
+}
+
+@media screen and (max-width: 860px) 
+{
+   
+    
+}
+
+      footer{
+        background-color: black;
+      }
+
+      .HR{
+        text-align: center;
+        
+      }
+
+  
+    </style>
+
+  </head>
+  <body>
+    
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary navbar-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="imagens/LOGO.webp" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="tour.html">TOUR</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="members.html">Members</a></li>
+                  <li><a class="dropdown-item" href="bio.html">BIO</a></li>
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-------------------------FIM DA BARRA DE NAVEGAÇÃO------------------------->
+      <!-------------------------FIM DA BARRA DE NAVEGAÇÃO------------------------->
+      <!-------------------------FIM DA BARRA DE NAVEGAÇÃO------------------------->
+
+    
+
+
+
+      <!-------------------------CARD------------------------->
+      <!-------------------------CARD------------------------->
+      <!-------------------------CARD------------------------->
+      <!-------------------------CARD------------------------->
+
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card bg-dark text-light">
+            <div class="card-body">
+              <h5 class="card-title">NOVA ROCK</h5>
+              <p class="card-text">Nickelsdorf, Austria</p>
+              <p class="lead">Wed, JUN 7</p>
+              <a href="https://www.novarock.at/?fbclid=IwAR0BaNEndPQqnAx83jLYyiOh8PxTKRkmR1kNsYIx1FaQBk4E9AqR_1wVGU0" class="btn btn-outline-light">Buy Tickey</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card bg-dark text-light">
+            <div class="card-body">
+              <h5 class="card-title">ALTICE ARENA</h5>
+              <p class="card-text">Lisbon, Portugal</p>
+              <p class="lead">Fri, MAY 9</p>
+              <a href="#" class="btn btn-outline-light disabled text-decoration-line-through">Buy Ticket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+       
+
+
+<!-------------------------FIM DO CARD------------------------->
+<!-------------------------FIM DO CARD------------------------->
+<!-------------------------FIM DO CARD------------------------->
+<!-------------------------FIM DO CARD------------------------->
+
+
+
+
+
+
+
+
+
+
+<div class="HR"><img src="imagens/Divisor.png" alt=""></div>
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------FOOTER------------------------->
+<!-------------------------FOOTER------------------------->
+<!-------------------------FOOTER------------------------->
+<!-------------------------FOOTER------------------------->
+
+
+
+
+<footer class="text-center text-white">
+        
+  <div class="container p-4">
+    
+    <section class="mb-4">
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="https://pt-pt.facebook.com/LornaShore/" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/LornaShore" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      
+
+
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/lornashore/" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      
+
+      
+    </section>
+    
+
+    
+    <section class="">
+      <form action="">
+        
+        <div class="row d-flex justify-content-center">
+          
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+         
+
+         
+          <div class="col-md-5 col-12">
+           
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" placeholder="Email address" class="form-control" />
+              
+            </div>
+          </div>
+          
+
+          
+          <div class="col-auto">
+            
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+         
+        </div>
+      
+      </form>
+    </section>
+    
+
+    
+    <section class="mb-4">
+      <p>
+        Website fictício da banda "Lorna Shore" criado por "Mateus Oliveira Brito" Com o intuito de realizar o "Caso Pratico: Desenvolvimento de homepage de website com recurso à biblioteca Bootstrap"
+      </p>
+    </section>
+   
+
+    
+    <section class="">
+     
+      <div class="row">
+        
+        
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://www.masterd.pt/">MasterD</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-------------------------FIM DO FOOTER------------------------->
+<!-------------------------FIM DO FOOTER------------------------->
+<!-------------------------FIM DO FOOTER------------------------->
+<!-------------------------FIM DO FOOTER------------------------->
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

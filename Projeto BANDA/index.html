@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/3d336feb3c.js" crossorigin="anonymous"></script>
+
+    <title>Lorna Shore/Home</title>
+
+    <style>
+      body{
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: black;
+      }
+
+      @font-face {
+  font-family: Asul;
+  src: url(Asul/Asul-Regular.ttf);
+  }
+
+      nav{
+        background-color: black;
+        
+      }
+
+      .carousel, h1{
+        color: bisque;
+
+      } 
+
+      .card{
+        background-color: black;
+        color: whitesmoke;
+        text-align: center;
+        font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);;
+
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      .card-body{
+        text-align: center;
+      }
+
+      .card-group, a{
+        color: bisque;
+        text-decoration: none;
+        
+      }
+
+      footer{
+        background-color: black;
+      }
+
+      .HR{
+        text-align: center;
+        
+      }
+
+      .asul{
+        font-family: Asul;
+      }
+
+  
+    </style>
+
+  </head>
+  <body>
+    
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+    <!-------------------------BARRA DE NAVEGAÇÃO------------------------->
+
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary navbar-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="imagens/LOGO.webp" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tour.html">TOUR</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="members.html">Members</a></li>
+                  <li><a class="dropdown-item" href="bio.html">BIO</a></li>
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-------------------------FIM DA BARRA DE NAVEGAÇÃO------------------------->
+      <!-------------------------FIM DA BARRA DE NAVEGAÇÃO------------------------->
+      <!-------------------------FIM DA BARRA DE NAVEGAÇÃO------------------------->
+
+    <!-------------------------CAROUSEL------------------------->
+    <!-------------------------CAROUSEL------------------------->
+    <!-------------------------CAROUSEL------------------------->
+    <!-------------------------CAROUSEL------------------------->
+
+
+      <div id="carouselExample" class="carousel slide d-none d-md-block">
+
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="imagens/About.jpg" class="d-block w-100" alt="...">
+
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="asul" >About us</h1>
+                <a class="btn btn-lg btn-outline-light " href="bio.html">Read more</a>
+              </div>
+            </div>
+          </div>
+
+              <!--carrosel 2-->
+
+
+          <div class="carousel-item">
+            <img src="imagens/TOUR.jpg" class="d-block w-100" alt="...">
+
+              <div class="container">
+          <div class="carousel-caption">
+            <h1 class="asul">Tour</h1>
+            <p><a class="btn btn-lg btn-outline-light" href="tour.html">View dates</a></p>
+          </div>
+        </div>
+          </div>
+            <!--carrosel 2-->
+
+          <div class="carousel-item">
+            <img src="imagens/vermelho.jpg" class="d-block w-100" alt="">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1 class="asul">Members</h1>
+                <p><a class="btn btn-lg btn-outline-light" href="members.html">See more</a></p>
+              </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+      <!------------------------- FIM CAROUSEL------------------------->
+      <!------------------------- FIM CAROUSEL------------------------->
+      <!------------------------- FIM CAROUSEL------------------------->
+      <!------------------------- FIM CAROUSEL------------------------->
+
+
+
+      <!-------------------------CARD------------------------->
+      <!-------------------------CARD------------------------->
+      <!-------------------------CARD------------------------->
+      <!-------------------------CARD------------------------->
+
+
+      <div class="card text-center" >
+        <div class="card-body ">
+          <h3 class="asul card-title">Check out our new EP</h3>
+        </div>
+      </div>
+
+
+      <div class="card-group">
+        <div class="card">
+          <img src="imagens/PAIN3.jpg"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="asul card-title">Pain Remains I</h5>
+            <p class="card-text"><h4>Dancing Like Flames:</h4> is about the longing for someone you’ve lost. The lyrics describe the feelings of being captivated by and drawn to someone, only for them to disappear in the blink of an eye. The chorus talks about dancing like flames flickering in the night, suggesting the idea of being in love with someone and burning brightly before fading away and melting away. The bridge speaks of a world without the person they love, while they recognize that they were meant to be together. The outro reflects on the state of the lover, questioning whether they are just a ghost and caught between two intertwining melodies. Overall, the song speaks of longing for someone who has gone away and hoping for them to return so the relationship can be recovered.</p>
+            <a class="asul" href="https://open.spotify.com/track/4KyPlGyV6lfxOPHfBQpPZm?si=892916d462e6434b">Listen on Spotify</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagens/PAIN2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="asul card-title">Pain Remains II</h5>
+            <p class="card-text"><h4>After All I’ve Done, I’ll Disappear</h4>  is a melancholic exploration of the idea of fading away due to the loss of a loved one. The song reflects on the sadness and confusion of being left with nothing, but also the hope that they may someday find peace in a world that has left them behind. The lyrics touch upon themes of mourning and reflection, mixed with feelings of desolation and despair, as the narrator looks back at what they have done in the past and wonders how they will cope with the future. By singing about the pain and emptiness that has been left in the wake of a loved one's absence, the narrator finds solace in their own power of resilience, and ultimately resolves to 'disappear', to let go and find peace. </p>
+            <br>
+            <a class="asul" href="https://open.spotify.com/track/3CLV93SK84UzGD5EHm3vsT?si=49248d63932a4f96">Listen on Spotify</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagens/PAIN1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="asul card-title">Pain Remains III</h5>
+            <p class="card-text"><h4>In a Sea of Fire</h4> is a song about facing the consequences of one's actions. The song talks about dealing with the burden of guilt and how it can be a struggle to move on from that feeling. The song metaphorically speaks of throwing oneself into the "sea of fire", or burning away the past in order to emerge anew, unfettered by guilt and pain. The chorus serves as a conclusion, with the singer accepting that it is time to let go and say goodbye to the devil's choir in the form of a sea of fire. It speaks of a powerful moment of letting go, of leaving the stage and the burden of the past, and starting anew. </p>
+            <br><br>
+            <a class="asul" href="">Listen on Spotify</a>
+          </div>
+        </div>
+      </div>
+
+        
+
+
+<!-------------------------FIM DO CARD------------------------->
+<!-------------------------FIM DO CARD------------------------->
+<!-------------------------FIM DO CARD------------------------->
+<!-------------------------FIM DO CARD------------------------->
+
+
+
+
+
+
+
+
+
+
+<div class="HR"><img src="imagens/Divisor.png" alt=""></div>
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------FOOTER------------------------->
+<!-------------------------FOOTER------------------------->
+<!-------------------------FOOTER------------------------->
+<!-------------------------FOOTER------------------------->
+
+
+
+
+      <footer class="text-center text-white">
+        
+        <div class="container p-4">
+          
+          <section class="mb-4">
+            
+            <a class="btn btn-outline-light btn-floating m-1" href="https://pt-pt.facebook.com/LornaShore/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/LornaShore" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            
+      
+  
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/lornashore/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            
+      
+            
+          </section>
+          
+      
+          
+          <section class="">
+            <form action="">
+              
+              <div class="row d-flex justify-content-center">
+                
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+               
+      
+               
+                <div class="col-md-5 col-12">
+                 
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" placeholder="Email address" class="form-control" />
+                    
+                  </div>
+                </div>
+                
+      
+                
+                <div class="col-auto">
+                  
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+               
+              </div>
+            
+            </form>
+          </section>
+          
+      
+          
+          <section class="mb-4">
+            <p>
+              Website fictício da banda "Lorna Shore" criado por "Mateus Oliveira Brito" Com o intuito de realizar o "Caso Pratico: Desenvolvimento de homepage de website com recurso à biblioteca Bootstrap"
+            </p>
+          </section>
+         
+      
+          
+          <section class="">
+           
+            <div class="row">
+              
+              
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="https://www.masterd.pt/">MasterD</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+<!-------------------------FIM DO FOOTER------------------------->
+<!-------------------------FIM DO FOOTER------------------------->
+<!-------------------------FIM DO FOOTER------------------------->
+<!-------------------------FIM DO FOOTER------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
